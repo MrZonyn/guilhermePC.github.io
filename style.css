@@ -58,19 +58,6 @@ header #navbar .nav-list .nav-item a:hover {
   transition: color 0.3s;
 }
 
-header #navbar .hamburguer-menu {
-  display: none;
-}
-
-@media (max-width: 740px) {
-  header #navbar .hamburguer-menu {
-    display: block;
-  }
-  header #navbar .nav-list {
-    display: none;
-  }
-}
-
 /* Section Banner */
 main {
   margin-top: 6rem;
@@ -88,7 +75,7 @@ main #banner {
 main #banner .banner-content .banner-content-title {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1rem;
+  line-height: 2.5rem;
   margin-bottom: 2rem;
 }
 
